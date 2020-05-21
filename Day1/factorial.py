@@ -1,6 +1,7 @@
-i = int(input("Enter i:"))
-result = i
+a = int(input("Enter i:"))
+i = a
+result = a
 while i > 1:
     result = result * (i - 1)
     i -= 1
-print(result)
+print("%s!=%s"%(a,result))
