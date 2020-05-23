@@ -14,6 +14,5 @@ if c >= (a + b):
 else:
     p = (a + b + c) / 2
     h = (2 * math.sqrt(p * (p - a) * (p - b) * (p - c))) / c
-    print(h)
     s = (c * h) / 2
     print("S=%s" % s)
