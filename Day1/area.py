@@ -1,6 +1,5 @@
 import math
 
-print("    angle")
 print("      /\\")
 print("     /__\\")
 print("  a /____\\ b")
@@ -9,8 +8,12 @@ print("  /________\\")
 print("      c      ")
 a = int(input("Enter a:"))
 b = int(input("Enter b:"))
-angle = int(input("Enter angle:"))
-c = math.sqrt((a ** 2) + (b ** 2) - (2 * a * b * math.cos(math.radians(angle))))
-h = math.sqrt((a ** 2) - ((c / 2) ** 2))
-s = c / 2 * h
-print("S=%s" % s)
+c = int(input("Enter c:"))
+if c >= (a + b):
+    print("Error! You entered incorrect data.")
+else:
+    p = (a + b + c) / 2
+    h = (2 * math.sqrt(p * (p - a) * (p - b) * (p - c))) / c
+    print(h)
+    s = (c * h) / 2
+    print("S=%s" % s)
