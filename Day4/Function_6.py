@@ -10,8 +10,7 @@ def dec_to_hex(number):
     while number > 0:
         hex_number = f'{hex_literal[number & 15]}{hex_number}'
         number = number >> 4
-    hex_number = f'0x{hex_number}'
-    return hex_number
+    return f'0x{hex_number}'
 
 
 number = int(input("Enter decimal number:"))
