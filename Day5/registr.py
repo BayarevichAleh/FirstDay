@@ -1,4 +1,9 @@
 def registr(world):
+    """
+    :param world: input world
+    :type world: string
+    :return: changed world
+    """
     up = 0
     down = 0
     if world.isalpha():
