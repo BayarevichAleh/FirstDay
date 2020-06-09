@@ -1,8 +1,6 @@
-up = 0
-down = 0
-
-while True:
-    world = input("Enter world:")
+def registr(world):
+    up = 0
+    down = 0
     if world.isalpha():
         for i in world:
             if i.isupper():
@@ -10,9 +8,13 @@ while True:
             else:
                 down += 1
         if up > down:
-            print(world.upper())
+            return world.upper()
         else:
-            print(world.lower())
+            return world.lower()
 
     else:
-        print("Incorrect data")
+        return  "Incorrect data"
+
+while True:
+    user_world = input("Enter world:")
+    print(registr(user_world))
