@@ -1,0 +1,31 @@
+{
+    "Money": 0,
+    "Quantity": 4,
+    "Animals": {
+        "0": {
+            "Animal": "Cat",
+            "Name": "Murka",
+            "Gender": "Famale",
+            "Cost": 43
+        },
+        "1": {
+            "Animal": "Dog",
+            "Name": "Tuzik",
+            "Gender": "Male",
+            "Cost": 54
+        },
+        "2": {
+            "Animal": "Dog",
+            "Name": "Bobik",
+            "Gender": "Male",
+            "Cost": 32
+        },
+        "3": {
+            "Animal": "Rabbit",
+            "Name": "Banny",
+            "Gender": "Male",
+            "Cost": 43.0,
+            "Weight": 13.0
+        }
+    }
+}
